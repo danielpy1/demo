@@ -18,15 +18,14 @@ body{
 }
 
 .form-signin {
-  width: 100%;
-  max-width: 330px;
+  width: auto;
   padding: 15px;
   margin: auto;
 }
 
-/*.form-signin .checkbox {*/
-/*  font-weight: 400;*/
-/*}*/
+.form-signin .checkbox {
+  font-weight: 400;
+}
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
@@ -57,6 +56,7 @@ footer{
   align-content: center;
   align-items: center;
 }
+
 #copyright{
   padding:3rem;
   color: black;
@@ -66,6 +66,7 @@ footer{
   color:black;
 }
 #login-container{
-  background-color:greenyellow;
   padding: 3rem;
+  height:auto;
+  background: linear-gradient( #2464ac ,#0c4c8c);
 }
